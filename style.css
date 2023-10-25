@@ -1,0 +1,42 @@
+.gridbox {
+    display: grid;
+    width: 1440px;
+    height: 1024px;
+}
+
+.header {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.receptnamn {
+    background-color: #FFE5E5;
+    width: 480px;
+    height: 40px;
+    border: 3px solid black;
+}
+
+h2 {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.ingredienslista {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 369px;
+    height: 644px;
+    border: 5px solid black;
+    background-color: #FEEBBB;
+}
+
+.receptinstruktion {
+    width: 495px;
+    height: 740px;
+    margin-left: 10px;
+    border: 2px solid black;
+    background-color: #EFF3C6;
+}
