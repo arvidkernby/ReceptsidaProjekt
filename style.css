@@ -1,15 +1,15 @@
 .gridbox {
     display: grid;
-    width: 1440px;
     height: 1024px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
-.header {
-    display: grid;
+header {
     text-align: center;
-    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
-
 
 .receptnamn {
     background-color: #FFE5E5;
@@ -23,20 +23,54 @@ h2 {
     text-align: center;
 }
 
+
+main {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
 .ingredienslista {
     margin-left: 30px;
     margin-top: 20px;
     margin-right: 10px;
-    width: 369px;
+    width: 300px;
     height: 644px;
-    border: 5px solid black;
+    border: 2px solid black;
     background-color: #FEEBBB;
+    grid-column: 1/2;
+    grid-row: 2/4;
 }
 
 .receptinstruktion {
-    width: 495px;
+    width: 400px;
     height: 740px;
     margin-left: 10px;
-    border: 2px solid black;
+    margin-right: 10px;
+    border: 5px solid black;
     background-color: #EFF3C6;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+h3 {
+    text-align: left;
+}
+
+.maträttsbild {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+
+.ingrediensbild {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    border: 2px solid black;
 }
